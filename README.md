@@ -2,14 +2,14 @@
 
 ## Fractal Trees
 
-Computes a fractal tree by iteratively creating two new "branches" in left and right direction by creating a line in each corresponding direction, where it then scales the line's maginitude by given scale factor, and then multiplies this by a transfomation matrix to rotate the left and right branches in their corresponding direction by $ \theta^{\circ}$. The base case is set as a counter that decrements each iterative cycle.
+Computes a fractal tree by iteratively creating two new "branches" in left and right direction by creating a line in each corresponding direction, where it then scales the line's maginitude by given scale factor, and then multiplies this by a transfomation matrix to rotate the left and right branches in their corresponding direction by $\theta^{\circ}$ . The base case is set as a counter that decrements each iterative cycle.
 
 ### **Part a.)**
-Creating a fractal tree with left and right branches emanating from the trunk at right angles scaling each branch by a scale factor of $s = 0.6$, gives the following plot after iterating 12 times (when successive segments could no longer be differentiated). <br/>
+Creating a fractal tree with left and right branches emanating from the trunk at right angles scaling each branch by a scale factor of $s = 0.6$ , gives the following plot after iterating 12 times (when successive segments could no longer be differentiated). <br/>
 
 | <img src="./Images/Part_a.png" />     |
 |:-------------------------------------:|
-| Fractal Tree ( $s = 0.8 $ )           |
+| Fractal Tree ( $s = 0.8$ )           |
 <br/>
 
 ### **Part b.)**
@@ -17,7 +17,7 @@ When the scale factor is decreased to exactly half, where each preceding line se
 
 ### **Part c.)**
 
-Now applying different angles between the left and right branches ($\theta_l$ and $\theta_r$) and different segment length ratios between the left and right branches ($s_l$ and $s_r$) yields the following result: <br/>
+Now applying different angles between the left and right branches ( $\theta_l$ and $\theta_r$ ) and different segment length ratios between the left and right branches ( $s_l$ and $s_r$) yields the following result: <br/>
 
 | <img src="./Images/Part_c.png" />     |
 |:------------------------------------------------:|
